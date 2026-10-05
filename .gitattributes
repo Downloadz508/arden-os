@@ -1,0 +1,35 @@
+# Arden OS Security
+
+Security is part of system architecture.
+
+Threat assumptions:
+
+- userspace may be malicious
+- applications may be buggy
+- network traffic is hostile
+- files may be corrupted
+- packages may be malicious
+- devices may fail
+- DMA may be dangerous
+- concurrent code may race
+
+Security objectives:
+
+- kernel/user separation
+- process isolation
+- capabilities
+- permissions
+- secure handles
+- memory protection
+- ASLR
+- NX
+- sandboxing
+- package verification
+- update verification
+- secure boot
+- encrypted storage
+- audit logging
+
+Every privileged subsystem requires security review.
+git status
+tree -L 2
